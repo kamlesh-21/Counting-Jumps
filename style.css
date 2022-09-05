@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+  body{
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+#hero{
+    background-image: url("https://media4.giphy.com/media/yflXLFvJHTG36/giphy.gif?cid=790b7611a62f65b097748d2a64ad54f2f814c67cf2f9b57e&rid=giphy.gif&ct=g");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+#count-el{
+    font-weight: bold;
+}
+
+#increment-el{
+    padding: 10px 30px;
+    background-color: red;
+    font-size: medium;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+#save-el{
+    padding: 10px 30px;
+    background-color: green;
+    font-size: medium;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+#container{
+    background-color:  whitesmoke;
+    margin: 0px;
+    padding: 15px;
+    border: 8px solid gray;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
