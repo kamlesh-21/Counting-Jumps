@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
     <title>Counting-Jumps</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div id="hero">
         <div id="container">
-            <h1>Welcome to Jumping Counter</h1>
+            
+            <h1 id="heading-el">Welcome to Jumping Counter</h1>
             <h2 id="count-el">0</h2>
-            <button id="increment-el" onclick="increment()">JUMPS</button>
-            <button id="save-el" onclick="save()">SAVE</button>
-            <p>Previous Entries:</p>
+            <button id="increment-btn" onclick="increment()">JUMPS</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <p id="save-el">Previous Entries:</p>
+            <script src="index.js"></script>
         </div>
     </div>
     
